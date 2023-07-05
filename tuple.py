@@ -18,15 +18,15 @@ class tuple:
         print("len of the given tuple :",len(self.tuple))
     def TupleValue(self):
         """"FUNCTION TO EXTRACT THE VALUE """
-        print(self.tuple[0:5])
-        print(self.tuple[6])
+        print("extract the tuple from [0:5] :", self.tuple[0:5])
+        print("extract the tuple from [6] : ",self.tuple[6])
     def TupleCount(self,a:int):
         """"FUNCTION TO COUNT THE OCCURANCE OF THE VALUE """
-        print(self.tuple.count(a))
+        print("count of ",a,"is :",self.tuple.count(a))
     def TupleMaxMin(self,tuplem):
         """"FUNCTION TO FIND THE MAX MIN VALUE """
-        print(max(tuplem))
-        print(min(tuplem))
+        print("max is :",max(tuplem))
+        print("min is :",min(tuplem))
 ob=tuple(t)
 ob.TuplePrintT()
 ob.TupleType(t1)

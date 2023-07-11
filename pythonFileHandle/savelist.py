@@ -1,3 +1,4 @@
+#create a file and save list in it using file handling
 l=[1,2,4.3,5,8]
 try:
     f=open("list.txt",'w')

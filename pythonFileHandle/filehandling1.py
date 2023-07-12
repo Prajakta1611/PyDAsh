@@ -1,4 +1,4 @@
-# Python program to create a file and writea file.
+# Python program to create a file and writea
 try:
     f=open("abc.txt",'w+')
     f.write("hello welcome\n")

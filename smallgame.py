@@ -1,4 +1,5 @@
 # NUMBER CHOOSING SMALL GAME.
+
 from smalqameans import *
 
 def game():

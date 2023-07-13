@@ -7,9 +7,9 @@ def game():
         try:
             num=input("Enter a number :")
             acpNum=int(num)
-            if len(num)>2:
+            if len(num)>2 or acpNum <= 0 :
                 print("choose only two digit number [1-99]")
-            if acpNum == a:
+            elif acpNum == a:
                 print("you have selected a correct number")
                 break
             else:

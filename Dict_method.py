@@ -1,7 +1,7 @@
 d={"name":"prajakta","class":"tycs","roll-no":8}
 class Dict:
     """THIS CLASS CONTAIN ALL THE DICT FUNCTION."""
-    def __init__(self,dict):
+    def __init__(self,dict:dict):
         self.dict = dict
     def DictType(self):
         """THIS FUNCTION PRINT THE TYPE OF DICT."""

@@ -2,7 +2,7 @@ a=int(input("Enter 1st number :"))
 b=int(input("Enter 2nd number:"))
 class areas:
     """FUCTION TO CALCULATE AREA of SHAPES"""
-    def __init__(self,variableA,variableB):
+    def __init__(self,variableA:int,variableB:int):
         self.a=variableA
         self.b=variableB
     def square(self):

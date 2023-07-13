@@ -1,4 +1,5 @@
 #program to generate the list of only even no from the given list.
+
 l=[1,2,3,4,5,6,7]
 l1=[]
 for i in l:

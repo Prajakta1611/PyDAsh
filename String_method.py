@@ -5,7 +5,7 @@ spacestr = "    abcdefg     "
 try:
     class string:
         """This function contain all the list functions."""
-        def __init__(self,str):
+        def __init__(self,str:str):
              self.str=str
         def Strlength(self):
             """Function Return the length of the string."""
@@ -33,14 +33,14 @@ try:
         def StrCount(self,countStr:str):
             """count function"""
             print("counting occurance of the variable :",self.str.count(countStr))
-        def StrSplitJoin(self,splitStrr):
+        def StrSplitJoin(self,splitStrr:list):
             """split and join function"""
             print("spliting the string :",self.str.split(" "))
-            print("joining the given string :","".join(splitStrr))
+            print("joining the given string :"," ".join(splitStrr))
         def StrReplace(self,oldword:str,replace:str):
             """replacefunction"""
             print("Replace the  word :",self.str.replace(oldword,replace))
-        def StrRemovigSpace(self,newStr):
+        def StrRemovigSpace(self,newStr:str):
             """rstrip, lstrip, strip, function."""
             print("remove space from right :",newStr.rstrip())
             print("remove space from left :",newStr.lstrip())

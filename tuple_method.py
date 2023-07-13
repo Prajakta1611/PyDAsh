@@ -4,12 +4,12 @@ t2=(1,2,6,4,32,34,1,2,3,44,55)
 
 class tuple:
     """"THIS CLASS CONTAIN EVERYTHING ABOUT TUPLE"""
-    def __init__(self,tuple):
+    def __init__(self,tuple:tuple):
         self.tuple=tuple
     def TuplePrintT(self):
         """FUNCTION TO PRINT THE GIVEN TUPLE"""
         print(self.tuple)
-    def TupleType(self,tup):
+    def TupleType(self,tup:tuple):
         """"FUNCTION TO FIND THE TYPE """
         print("type of tuple :",type(tup))
         print("type of tuple :",type(self.tuple))
@@ -23,7 +23,7 @@ class tuple:
     def TupleCount(self,a:int):
         """"FUNCTION TO COUNT THE OCCURANCE OF THE VALUE """
         print("count of ",a,"is :",self.tuple.count(a))
-    def TupleMaxMin(self,tuplem):
+    def TupleMaxMin(self,tuplem:tuple):
         """"FUNCTION TO FIND THE MAX MIN VALUE """
         print("max is :",max(tuplem))
         print("min is :",min(tuplem))

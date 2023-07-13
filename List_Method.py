@@ -5,7 +5,7 @@ extend_list=[3,22]
 try:
     class List:
         """This function contain all the list functions."""
-        def __init__(self,list):
+        def __init__(self,list:list):
             self.list=list
         def Listlen(self):
             """function to find length."""
@@ -13,7 +13,7 @@ try:
         def ListTyp(self):
             """Function to check type."""
             print("Type of list :",type(self.list))
-        def ListOfIntVal(self,list2):
+        def ListOfIntVal(self,list2:list):
             """append function."""
             self.list2=list2
             for i in self.list:

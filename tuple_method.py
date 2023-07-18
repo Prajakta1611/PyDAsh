@@ -1,3 +1,5 @@
+#This file contain all the tuple function.
+
 t=(2,10,26,5,8,3,8,8,8,"4","hello",5.6,"python")
 t1=(1)
 t2=(1,2,6,4,32,34,1,2,3,44,55)

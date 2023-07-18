@@ -1,3 +1,5 @@
+#This file contain all the string function.
+
 s = "hello welcome to my page."
 str_1 ="hii"
 join = ['hello', 'welcome', 'to', 'my', 'page.']

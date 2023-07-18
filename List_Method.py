@@ -1,3 +1,5 @@
+#this file contain all the list method.
+
 l=[2,10,26,5,8,3,"4","hello",5.6,"python"]
 l2=[2,1]
 extend_list=[3,22]

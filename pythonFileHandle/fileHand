@@ -1,0 +1,2 @@
+File handling is an integral part of programming. File handling in Python is simplified with built-in methods, which include creating, opening, and closing files.
+While files are open, Python additionally allows performing various file operations, such as reading, writing, and appending information.hellohello
